@@ -1,0 +1,22 @@
+/* Google Fonts'tan Ubuntu fontunu ekliyoruz */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/* Sayfa genel düzenlemeleri */
+* {
+  box-sizing: border-box; /* Tüm elemanlarda box modelini kontrol altında tutmak için */
+}
+
+body {
+  margin: 0;
+  padding: 0; /* Tarayıcı varsayılan padding'i kaldırdık */
+  background: #111; /* Koyu arka plan */
+  display: flex;
+  align-items: center; /* Yatayda ortalama */
+  justify-content: center; /* Dikeyde ortalama */
+  height: 100vh; /* Yükseklik 100% */
+  font-family: "Ubuntu", sans-serif; /* Font ayarı */
+  color: #fff; /* Yazı rengini beyaz yapıyoruz */
+  overflow: hidden; /* Sayfanın dışına taşan elemanları gizler */
+}
+
+/* Diğer elementlere özgü stil ayarları yapılabilir */
